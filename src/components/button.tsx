@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ProjectButton = () => (
   <div className="
     w-fit py-1 px-8 border-[0.19rem] relative border-[#4F75FF]
