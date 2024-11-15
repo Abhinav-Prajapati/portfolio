@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Morris Roman Black';
+  src: url('../public/fonts/MorrisRomanBlack.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
