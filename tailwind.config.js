@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'morris_roman': ['Morris Roman Black', 'sans-serif']  // Use the name you defined in @font-face
+        'morris_roman': ['Morris Roman Black', 'sans-serif'],
+        'arcuata': ['Arcuata Trial, Medium', 'sans-serif']
       },
     },
   },

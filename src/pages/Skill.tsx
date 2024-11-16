@@ -1,8 +1,8 @@
 import SkillsCard from '../components/skillsCard';
 function Skills() {
   return (
-    <div className="bg-[url('../public/blue-transformed.jpeg')] bg-cover bg-center h-[60vh] w-full flex flex-col  items-center">
-      <h1 className="mt-10 mb-7 text-white font-morris_roman text-[2.3rem]">
+    <div className="bg-[url('../public/blue-transformed.jpeg')] bg-cover bg-center h-[60vh] w-full flex flex-col relative items-center">
+      <h1 className="mt-10 mb-7 text-white font-morris_roman text-[3rem]">
         My Experties
       </h1>
 
@@ -104,6 +104,11 @@ function Skills() {
           />
         </SkillsCard>
       </div>
+      <img
+        src="/PageDivider/pageDividerPlane.png"
+        alt="page divider"
+        className=" w-screen absolute  -bottom-1 bg-center bg-cover "
+      />
     </div>
   )
 }
